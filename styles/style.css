@@ -7,3 +7,10 @@
 .font-poppins{
     font-family: 'Poppins', sans-serif;
 }
+
+/* custom button classes */
+
+.custom-btn-one{
+    padding: .8rem 1rem; 
+    min-height: auto;
+}
