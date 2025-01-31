@@ -9,8 +9,36 @@
 }
 
 /* custom button classes */
-
 .custom-btn-one{
     padding: .8rem 1rem; 
     min-height: auto;
 }
+
+/* custom break points */
+@media (min-width: 400px) and (max-width: 767px) {
+    .service-container{
+        max-width: 600px;
+        min-width: 400px;
+        margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 429px) {
+    .service-card{
+      max-width: 100%;
+    }
+  }
+
+  /* Simple animation */
+
+  @keyframes subtleSwing {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(2deg); }  
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-2deg); } 
+    100% { transform: rotate(0deg); }
+  }
+  
+  .hero-image {
+    animation: subtleSwing 5s ease-in-out infinite;  
+  }
