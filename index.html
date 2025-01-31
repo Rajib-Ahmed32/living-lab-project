@@ -1,170 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="living lab" />
-    <meta
-      name="description"
-      content="Discover the best organic vegetables, healthy recipes, and nutrition tips. Eat fresh, stay healthy with our farm-to-table produce and diet guides."
-    />
-    <meta
-      name="keywords"
-      content="healthy vegetables, organic food, fresh produce, nutrition tips, vegetable recipes, farm-to-table, healthy eating, plant-based diet, fresh greens, superfoods"
-    />
-    <link rel="icon" type="image/x-icon" href="./images/healthy.png" />
-    <link rel="stylesheet" href="./styles/style.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <title>Healthy Living Lab</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="font-sora">
-    <!--Header Part-->
-    <header>
-      <div
-        class="w-full px-3 py-5 border-[1.5px] border-b-[#638b3f] flex justify-between items-center md:border-hidden lg:max-w-[85%] mx-auto"
-      >
-        <div
-          class="md:border-dashed md:border-2 md:border-[rgba(17,17,17,0.2)]"
-        >
-          <img
-            src="./images/icon-mobile.png"
-            alt="mobile icon"
-            class="md:hidden"
-          />
-          <img
-            src="./images/logo-header.png"
-            alt="main logo"
-            class="hidden md:block md:w-[100px] lg:w-[120px]"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="living lab" />
+  <meta name="description"
+    content="Discover the best organic vegetables, healthy recipes, and nutrition tips. Eat fresh, stay healthy with our farm-to-table produce and diet guides." />
+  <meta name="keywords"
+    content="healthy vegetables, organic food, fresh produce, nutrition tips, vegetable recipes, farm-to-table, healthy eating, plant-based diet, fresh greens, superfoods" />
+  <link rel="icon" type="image/x-icon" href="./images/healthy.png" />
+  <link rel="stylesheet" href="./styles/style.css" />
 
-        <div
-          class="hidden md:flex md:justify-end md:flex-1 md:text-[17px] lg:text-lg"
-        >
-          <nav>
-            <ul class="flex gap-6">
-              <li><a href="">Product</a></li>
-              <li><a href="">Service</a></li>
-              <li><a href="">Contact us</a></li>
-            </ul>
-          </nav>
-        </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Healthy Living Lab</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-        <div class="hidden md:block md:ml-16">
-          <div class="flex items-center gap-5">
-            <div class="flex gap-4">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <i class="fa-solid fa-cart-shopping"></i>
-            </div>
-            <div>
-              <button
-                class="btn btn-outline border font-medium border-[#638b3f] h-auto min-h-0 md:px-4 md:py-2 lg:px-5 lg:py-2 mr-1"
-              >
-                Login
-              </button>
-              <button
-                class="btn btn-success text-white font-medium bg-[#179800] h-auto min-h-0 md:px-4 md:py-2 lg:px-5 lg:py-2"
-              >
-                Register
-              </button>
-            </div>
+<body class="font-sora">
+  <!--Header Part-->
+  <header>
+    <div
+      class="w-full px-3 py-5 border-[1.5px] border-b-[#638b3f] flex justify-between items-center md:border-hidden lg:max-w-[85%] mx-auto">
+      <div class="md:border-dashed md:border-2 md:border-[rgba(17,17,17,0.2)]">
+        <img src="./images/icon-mobile.png" alt="mobile icon" class="md:hidden" />
+        <img src="./images/logo-header.png" alt="main logo" class="hidden md:block md:w-[100px] lg:w-[120px]" />
+      </div>
+
+      <div class="hidden md:flex md:justify-end md:flex-1 md:text-[17px] lg:text-lg">
+        <nav>
+          <ul class="flex gap-6">
+            <li><a href="">Product</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hidden md:block md:ml-16">
+        <div class="flex items-center gap-5">
+          <div class="flex gap-4">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
           </div>
-        </div>
-        <div class="md:hidden">
-          <img src="./icons/hamburger-icon.png" alt="hamburger icon" />
+          <div>
+            <button
+              class="btn btn-outline border font-medium border-[#638b3f] h-auto min-h-0 md:px-4 md:py-2 lg:px-5 lg:py-2 mr-1">
+              Login
+            </button>
+            <button
+              class="btn btn-success text-white font-medium bg-[#179800] h-auto min-h-0 md:px-4 md:py-2 lg:px-5 lg:py-2">
+              Register
+            </button>
+          </div>
         </div>
       </div>
-    </header>
+      <div class="md:hidden">
+        <img src="./icons/hamburger-icon.png" alt="hamburger icon" />
+      </div>
+    </div>
+  </header>
 
-    <main>
-      <!--Hero Section-->
-      <section class="mt-[46px]">
-        <div class="text-center mx-auto lg:w-[70%]">
-          <div class="space-y-[16px] mb-[20px] lg:space-y-[32px] lg:mb-[36px]">
-            <h1
-              class="text-[32px] leading-[46px] font-bold md:text-[45px] md:leading-[60px] lg:text-[50px] lg:leading-[65px] md:font-medium animate__animated animate__bounceIn animate__slow animate__repeat-2"
-            >
-              Freshness
-              <span class="text-[#179800]">
-                You Can<br />
-                Count
-              </span>
-              On, Prices<br class="md:hidden" />
-              You’ll Love!
-            </h1>
-            <p
-              class="px-6 text-[rgb(17,17,17,0.8)] md:text-lg"
-            >
-              Shop your daily essentials at unbeatable prices. From fresh
-              produce to pantry<br />
-              staples, we’ve got you covered every day!
-            </p>
+  <main>
+    <!--Hero Section-->
+    <section class="my-[80px]">
+      <div class="text-center mx-auto lg:w-[70%]">
+        <div class="space-y-[16px] mb-[20px] lg:space-y-[32px] lg:mb-[36px]">
+          <h1
+            class="text-[32px] leading-[46px] font-bold md:text-[45px] md:leading-[60px] lg:text-[50px] lg:leading-[65px] md:font-medium animate__animated animate__bounceIn animate__slow animate__repeat-2">
+            Freshness
+            <span class="text-[#179800]">
+              You Can<br />
+              Count
+            </span>
+            On, Prices<br class="md:hidden" />
+            You’ll Love!
+          </h1>
+          <p class="px-6 text-[rgb(17,17,17,0.8)] md:text-lg">
+            Shop your daily essentials at unbeatable prices. From fresh
+            produce to pantry<br />
+            staples, we’ve got you covered every day!
+          </p>
+        </div>
+        <div class="border border-dashed border-2 border-[rgba(17,17,17,0.2)]">
+          <img src="./images/hero-vegetables.png" alt="Hero image" class="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <!--Service section-->
+    <section class="my-[48px]">
+      <div class="service-container service-card px-5 lg:w-[85%] lg:mx-auto lg:px-0">
+        <h2 class="text-xl font-semibold text-[#179800] mb-[32px] md:text-[28px]">
+          Services
+        </h2>
+        <div class="md:grid md:grid-cols-3 md:gap-x-4">
+          <div class="bg-[#efebe3] rounded-xl p-[20px] mb-[20px] flex flex-col">
+            <div class="text-center flex-grow">
+              <img src="./images/service.png" alt="service" class="mx-auto mb-[20px]" />
+              <h3 class="mb-[10px] text-[20px] font-bold text-[#111111]">
+                24/7 Services
+              </h3>
+              <p class="text-[16.8px] text-[rgb(17, 17, 17, 0.8)] font-light leading-[25px]">
+                We deliver anytime, anywhere! Our 24/7 delivery service
+                ensures your packages, food, and essentials reach you on time,
+                no matter the hour.
+              </p>
+            </div>
           </div>
-          <div
-            class="border border-dashed border-2 border-[rgba(17,17,17,0.2)]"
-          >
-            <img src="./images/hero-vegetables.png" alt="Hero image" class=" hero-image" />
+
+          <div class="bg-[#efebe3] rounded-xl p-[20px] mb-[20px] flex flex-col">
+            <div class="text-center flex-grow">
+              <img src="./images/delivery.png" alt="service" class="mx-auto mb-[20px]" />
+              <h3 class="mb-[10px] text-[20px] font-bold text-[#111111]">
+                Fast Delivery
+              </h3>
+              <p class="text-[16.8px] text-[rgb(17, 17, 17, 0.8)] font-light leading-[25px]">
+                Craving something delicious? Our fast food delivery service
+                brings your favorite meals hot and fresh, anytime, anywhere!
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-[#efebe3] rounded-xl p-[20px] mb-[20px] flex flex-col">
+            <div class="text-center flex-grow">
+              <img src="./images/healthy.png" alt="service" class="mx-auto mb-[20px]" />
+              <h3 class="mb-[10px] text-[20px] font-bold text-[#111111]">
+                Healthy Products
+              </h3>
+              <p class="text-[16.8px] text-[rgb(17, 17, 17, 0.8)] font-light leading-[25px]">
+                Fuel your body with the best! Our healthy products are fresh,
+                organic, and delivered straight to your door for a nutritious
+                lifestyle.
+              </p>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--Service section-->
-      <section class="mt-[48px] mt-[46px]">
-        <div class="service-container service-card px-5 lg:w-[85%] lg:mx-auto lg:px-0 ">
-          <h2 class="text-xl font-semibold text-[#179800] mb-[32px] md:text-[28px]">
-            Services
-          </h2>
-          <div class="md:grid md:grid-cols-3 md:gap-x-4">
-            <div class="child-container bg-[#efebe3] rounded-xl p-[20px] mb-[20px] flex flex-col">
-              <div class="text-center flex-grow">
-                <img src="./images/service.png" alt="service" class="mx-auto mb-[20px]" />
-                <h3 class="mb-[10px] text-[20px] font-bold text-[#111111]">24/7 Services</h3>
-                <p class="text-[16.8px] text-[rgb(17, 17, 17, 0.8)] font-light leading-[25px]">
-                  We deliver anytime, anywhere! Our 24/7 delivery service ensures your packages, food, and essentials reach you on time, no matter the hour.
-                </p>
+      <!--Arrival and offer section-->
+    <section class="my-12 bg-[#efebe3] py-16">
+      <div class="px-5 lg:w-[85%] lg:mx-auto lg:px-0">
+        <h2 class="text-xl font-semibold text-[#179800] mb-8 md:text-[28px]">
+          Arrival & Offers
+        </h2>
+        <div class="grid gap-5 md:grid-cols-[320px_2fr]">
+          <div
+          class="rounded-xl min-h-[380px] bg-gradient-to-br from-[#27a620] via-[#53db3a] py-9 pl-6 md:grid-cols-3 md:gap-x-4 relative">
+          <div class="mb-[20px] flex flex-col items-start">
+            <h3
+              class="mb-[10px] text-[26px] bg-gradient-to-r from-[rgb(239,235,227)] to-[rgb(255,255,255)] bg-clip-text text-transparent">
+              30% off
+            </h3>
+            <p class="text-[13.8px] pr-8 text-[rgba(17, 17, 17, 0.7)] font-medium leading-[25px]">
+              Discover a world of treats, toys, and essentials handpicked
+              for
+            </p>
+            <button class="btn bg-white text-black font-extrabold bg-[#179800] h-auto min-h-0 px-6 py-3 mt-[10px]">
+              Buy now
+            </button>
+          </div>
+          <img src="./images/vegetable-offer.png" alt="vegetables offer" class="absolute bottom-0 right-0" />
+        </div>
+    
+          <div class="grid gap-3 px-2 py-4 grid-cols-2 md:grid-cols-2 lg:grid-cols-3 md:gap-3 lg:gap-5">
+            <div class="bg-white shadow-md rounded-xl p-2 flex items-center gap-2 border border-gray-300">
+              <div class="bg-[#f8f1eb] rounded">
+                <img src="./images/onion.png" alt="Onion" class="w-[50px]" />
+              </div>
+              <div>
+                <div class="flex items-center text-gray-600 text-sm">
+                  <span class="text-yellow-500">★</span>
+                  <span class="ml-1 font-medium">4.5</span>
+                </div>
+                <h3 class="font-semibold text-black leading-tight">Onion 1 KG</h3>
+                <p class="text-gray-700 font-medium">$39.99</p>
               </div>
             </div>
 
-            <div class="child-container bg-[#efebe3] rounded-xl p-[20px] mb-[20px] flex flex-col">
-              <div class="text-center flex-grow">
-                <img src="./images/delivery.png" alt="service" class="mx-auto mb-[20px]" />
-                <h3 class="mb-[10px] text-[20px] font-bold text-[#111111]">Fast Delivery</h3>
-                <p class="text-[16.8px] text-[rgb(17, 17, 17, 0.8)] font-light leading-[25px]">
-                  Craving something delicious? Our fast food delivery service brings your favorite meals hot and fresh, anytime, anywhere!
-                </p>
+            <div class="bg-white shadow-md rounded-xl p-2 flex items-center gap-2 border border-gray-300">
+              <div class="bg-[#f8f1eb] rounded">
+                <img src="./images/tomato.png" alt="Tomato" class="w-[50px]" />
+              </div>
+              <div>
+                <div class="flex items-center text-gray-600 text-sm">
+                  <span class="text-yellow-500">★</span>
+                  <span class="ml-1 font-medium">5.00</span>
+                </div>
+                <h3 class="font-semibold text-black leading-tight">Tomato 1 KG</h3>
+                <p class="text-gray-700 font-medium">$25.70</p>
+              </div>
+            </div>
+
+            <div class="hidden md:flex bg-white shadow-md rounded-xl p-2 flex items-center gap-2 border border-gray-300">
+              <div class="bg-[#f8f1eb] rounded">
+                <img src="./images/tomato.png" alt="Tomato" class="w-[50px]" />
+              </div>
+              <div>
+                <div class="flex items-center text-gray-600 text-sm">
+                  <span class="text-yellow-500">★</span>
+                  <span class="ml-1 font-medium">5.00</span>
+                </div>
+                <h3 class="font-semibold text-black leading-tight">Tomato 1 KG</h3>
+                <p class="text-gray-700 font-medium">$25.70</p>
+              </div>
+            </div>
+
+            <div class="md:hidden lg:flex bg-white shadow-md rounded-xl p-2 flex items-center gap-2 border border-gray-300">
+              <div class="bg-[#f8f1eb] rounded">
+                <img src="./images/potato.png" alt="Potato" class="w-[50px]" />
+              </div>
+              <div>
+                <div class="flex items-center text-gray-600 text-sm">
+                  <span class="text-yellow-500">★</span>
+                  <span class="ml-1 font-medium">4.00</span>
+                </div>
+                <h3 class="font-semibold text-black leading-tight">Potato 1 KG</h3>
+                <p class="text-gray-700 font-medium">$12.50</p>
+              </div>
+            </div>
+
+            <div class="hidden md:flex bg-white shadow-md rounded-xl p-2 flex items-center gap-2 border border-gray-300">
+              <div class="bg-[#f8f1eb] rounded">
+                <img src="./images/onion.png" alt="Onion" class="w-[50px]" />
+              </div>
+              <div>
+                <div class="flex items-center text-gray-600 text-sm">
+                  <span class="text-yellow-500">★</span>
+                  <span class="ml-1 font-medium">4.5</span>
+                </div>
+                <h3 class="font-semibold text-black leading-tight">Onion 1 KG</h3>
+                <p class="text-gray-700 font-medium">$39.99</p>
+              </div>
+            </div>
+
+            <div class="bg-white shadow-md rounded-xl p-2 flex items-center gap-2 border border-gray-300">
+              <div class="bg-[#f8f1eb] rounded">
+                <img src="./images/onion.png" alt="Onion" class="w-[50px]" />
+              </div>
+              <div>
+                <div class="flex items-center text-gray-600 text-sm">
+                  <span class="text-yellow-500">★</span>
+                  <span class="ml-1 font-medium">4.5</span>
+                </div>
+                <h3 class="font-semibold text-black leading-tight">Onion 1 KG</h3>
+                <p class="text-gray-700 font-medium">$39.99</p>
+              </div>
+            </div>
+
+            <div class="lg:flex bg-white shadow-md rounded-xl p-2 flex items-center gap-2 border border-gray-300">
+              <div class="bg-[#f8f1eb] rounded">
+                <img src="./images/potato.png" alt="Potato" class="w-[50px]" />
+              </div>
+              <div>
+                <div class="flex items-center text-gray-600 text-sm">
+                  <span class="text-yellow-500">★</span>
+                  <span class="ml-1 font-medium">4.00</span>
+                </div>
+                <h3 class="font-semibold text-black leading-tight">Potato 1 KG</h3>
+                <p class="text-gray-700 font-medium">$12.50</p>
               </div>
             </div>
           
-            <div class="child-container bg-[#efebe3] rounded-xl p-[20px] mb-[20px] flex flex-col">
-              <div class="text-center flex-grow">
-                <img src="./images/healthy.png" alt="service" class="mx-auto mb-[20px]" />
-                <h3 class="mb-[10px] text-[20px] font-bold text-[#111111]">Healthy Products</h3>
-                <p class="text-[16.8px] text-[rgb(17, 17, 17, 0.8)] font-light leading-[25px]">
-                  Fuel your body with the best! Our healthy products are fresh, organic, and delivered straight to your door for a nutritious lifestyle.
-                </p>
+            <div class="bg-white shadow-md rounded-xl p-2 flex items-center gap-2 border border-gray-300">
+              <div class="bg-[#f8f1eb] rounded">
+                <img src="./images/tomato.png" alt="Tomato" class="w-[50px]" />
+              </div>
+              <div>
+                <div class="flex items-center text-gray-600 text-sm">
+                  <span class="text-yellow-500">★</span>
+                  <span class="ml-1 font-medium">5.00</span>
+                </div>
+                <h3 class="font-semibold text-black leading-tight">Tomato 1 KG</h3>
+                <p class="text-gray-700 font-medium">$25.70</p>
+              </div>
+            </div>
+
+            <div class="hidden md:flex bg-white shadow-md rounded-xl p-2 flex items-center gap-2 border border-gray-300">
+              <div class="bg-[#f8f1eb] rounded">
+                <img src="./images/potato.png" alt="Potato" class="w-[50px]" />
+              </div>
+              <div>
+                <div class="flex items-center text-gray-600 text-sm">
+                  <span class="text-yellow-500">★</span>
+                  <span class="ml-1 font-medium">4.00</span>
+                </div>
+                <h3 class="font-semibold text-black leading-tight">Potato 1 KG</h3>
+                <p class="text-gray-700 font-medium">$12.50</p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
-  <footer></footer>
+      </div>
+    </section>
+  </main>
+</body>
+<footer>
+  
+</footer>
 </html>
