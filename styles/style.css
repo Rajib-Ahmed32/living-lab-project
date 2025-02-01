@@ -42,3 +42,8 @@
   .hero-image {
     animation: subtleSwing 3s ease-in-out infinite;  
   }
+
+  svg{
+    width: 16px;
+    color: white;
+  }
