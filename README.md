@@ -1,1 +1,4 @@
-*Healthy Living Lab* is an online platform offering fresh produce, pantry essentials, and healthy, organic products delivered directly to your door. With a focus on supporting nutritious lifestyles, the service provides 24/7 delivery, fast food options, and competitive prices. The goal is to make healthy living accessible through quality products and exclusive deals.
+# Healthy Living Lab
+
+*Healthy Living Lab* is a responsive online platform built with HTML and CSS, offering fresh produce, pantry essentials, and organic products. The site promotes healthy living with 24/7 delivery and competitive prices, providing easy access to nutritious food options delivered directly to your door. The responsive design ensures a seamless experience on various devices, enhancing user accessibility.
+
